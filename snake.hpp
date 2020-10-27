@@ -25,7 +25,6 @@ private:
     sf::Vector2f randPos();
     void genFood();
 
-    float manhattan(sf::Vector2f a, sf::Vector2f b);
     sf::Vector2f mul(sf::Vector2f a, float b);
     sf::Vector2f moveForwardTo(sf::Vector2f a, sf::Vector2f b);
     sf::Vector2f lerp(sf::Vector2f a, sf::Vector2f b, float w);

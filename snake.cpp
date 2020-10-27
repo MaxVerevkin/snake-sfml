@@ -109,10 +109,6 @@ void snakeGame::genFood() {
     foodSprite->setPosition(foodPos.x * blockSize, foodPos.y * blockSize);
 }
 
-float snakeGame::manhattan(sf::Vector2f a, sf::Vector2f b) {
-    return abs(a.x - b.x) + abs(a.y - b.y);
-}
-
 sf::Vector2f snakeGame::moveForwardTo(sf::Vector2f a, sf::Vector2f b) {
     if (a.x < b.x)
         a.x += 1;

@@ -8,7 +8,7 @@
 
 // Speed of snake
 // time (miliseconds) per block
-#define TPB 150.f
+#define TPB 120.f
 
 int main() {
     // Main window
